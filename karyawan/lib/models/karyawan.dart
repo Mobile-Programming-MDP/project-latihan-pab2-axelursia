@@ -4,14 +4,11 @@ class Karyawan {
   final Alamat alamat;
   final List<String> hobi;
 
-  Karyawan({
-    required this.nama,
-    required this.umur,
-    required this.alamat,
-    required this.hobi,
-  });
-
-  // Factory constructor for creating a Karyawan object from JSON
+  Karyawan(
+      {required this.nama,
+      required this.umur,
+      required this.alamat,
+      required this.hobi});
   factory Karyawan.fromJson(Map<String, dynamic> json) {
     return Karyawan(
       nama: json['nama'],
@@ -27,13 +24,8 @@ class Alamat {
   final String kota;
   final String provinsi;
 
-  Alamat({
-    required this.jalan,
-    required this.kota,
-    required this.provinsi,
-  });
+  Alamat({required this.jalan, required this.kota, required this.provinsi});
 
-  // Factory constructor for creating an Alamat object from JSON
   factory Alamat.fromJson(Map<String, dynamic> json) {
     return Alamat(
       jalan: json['jalan'],
