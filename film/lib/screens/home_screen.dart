@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pilem/models/movie.dart';
-import 'package:pilem/services/api_service.dart';
+import 'package:film/models/movie.dart';
+import 'package:film/services/api_service.dart';
 
 import 'detail_screen.dart';
 
@@ -40,7 +40,7 @@ class HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pilem'),
+        title: const Text('film'),
       ),
       body: SingleChildScrollView(
         child: Column(

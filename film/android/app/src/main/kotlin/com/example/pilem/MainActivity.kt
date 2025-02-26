@@ -1,4 +1,4 @@
-package com.example.pilem
+package com.example.film
 
 import io.flutter.embedding.android.FlutterActivity
 
