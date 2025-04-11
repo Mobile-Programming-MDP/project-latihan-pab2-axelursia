@@ -33,10 +33,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,19 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDBT6ZRdIua24sPaMiB_izTeRix9zCxfig',
-    appId: '1:737715652352:web:3d91ad4590258c7f3f95e5',
-    messagingSenderId: '737715652352',
-    projectId: 'fasum-apps-123',
-    authDomain: 'fasum-apps-123.firebaseapp.com',
-    storageBucket: 'fasum-apps-123.firebasestorage.app',
+    apiKey: 'AIzaSyCUgkHI71y2xKcdvIskRYnszEnO6kS-T9E',
+    appId: '1:244500002147:web:47df37db4ee2874f5bcf56',
+    messagingSenderId: '244500002147',
+    projectId: 'fasum-apps-axel',
+    authDomain: 'fasum-apps-axel.firebaseapp.com',
+    storageBucket: 'fasum-apps-axel.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCIK_FCHLiV6CCkZtXkXE1Yo0NyXuDqCiY',
-    appId: '1:737715652352:android:6b20f5aa9b21d4b13f95e5',
-    messagingSenderId: '737715652352',
-    projectId: 'fasum-apps-123',
-    storageBucket: 'fasum-apps-123.firebasestorage.app',
+    apiKey: 'AIzaSyDmYno6WG9yxv6KNDjbNyJ9MPLF51TAus4',
+    appId: '1:244500002147:android:92fabd63007b71935bcf56',
+    messagingSenderId: '244500002147',
+    projectId: 'fasum-apps-axel',
+    storageBucket: 'fasum-apps-axel.firebasestorage.app',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCUgkHI71y2xKcdvIskRYnszEnO6kS-T9E',
+    appId: '1:244500002147:web:1dadbff9debb11535bcf56',
+    messagingSenderId: '244500002147',
+    projectId: 'fasum-apps-axel',
+    authDomain: 'fasum-apps-axel.firebaseapp.com',
+    storageBucket: 'fasum-apps-axel.firebasestorage.app',
+  );
+
 }
