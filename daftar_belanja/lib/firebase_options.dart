@@ -33,10 +33,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,22 +47,33 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA0ts5BEW8p5v7FcQPzc8Aq8rsUNldUOcI',
-    appId: '1:258781372323:web:4dd6c74bf7d2e1838ac416',
-    messagingSenderId: '258781372323',
-    projectId: 'first-app-88b1b',
-    authDomain: 'first-app-88b1b.firebaseapp.com',
-    databaseURL: 'https://first-app-88b1b-default-rtdb.firebaseio.com',
-    storageBucket: 'first-app-88b1b.firebasestorage.app',
-    measurementId: 'G-T1V8WGVEGT',
+    apiKey: 'AIzaSyBxEtzn--jQQTwTsMdFfG6uME4FHbO2kCo',
+    appId: '1:1053652469724:web:abf778f31c93072f44f119',
+    messagingSenderId: '1053652469724',
+    projectId: 'pab-ii-3c5bd',
+    authDomain: 'pab-ii-3c5bd.firebaseapp.com',
+    databaseURL: 'https://pab-ii-3c5bd-default-rtdb.firebaseio.com',
+    storageBucket: 'pab-ii-3c5bd.firebasestorage.app',
+    measurementId: 'G-95T1WC6FBS',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA06Mdtfm8_WK_aMi419gGf9IuBq1Ksar4',
-    appId: '1:258781372323:android:74f49f0d3972062b8ac416',
-    messagingSenderId: '258781372323',
-    projectId: 'first-app-88b1b',
-    databaseURL: 'https://first-app-88b1b-default-rtdb.firebaseio.com',
-    storageBucket: 'first-app-88b1b.firebasestorage.app',
+    apiKey: 'AIzaSyDj_FHuhAd3OzGQvu0f8r0_zsIrYUOtLGE',
+    appId: '1:1053652469724:android:e96b70a971c3565144f119',
+    messagingSenderId: '1053652469724',
+    projectId: 'pab-ii-3c5bd',
+    databaseURL: 'https://pab-ii-3c5bd-default-rtdb.firebaseio.com',
+    storageBucket: 'pab-ii-3c5bd.firebasestorage.app',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBxEtzn--jQQTwTsMdFfG6uME4FHbO2kCo',
+    appId: '1:1053652469724:web:0fe185ca274d9b5544f119',
+    messagingSenderId: '1053652469724',
+    projectId: 'pab-ii-3c5bd',
+    authDomain: 'pab-ii-3c5bd.firebaseapp.com',
+    databaseURL: 'https://pab-ii-3c5bd-default-rtdb.firebaseio.com',
+    storageBucket: 'pab-ii-3c5bd.firebasestorage.app',
+    measurementId: 'G-3JK6B3JKTS',
   );
 }
