@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "244500002147",
+    "firebase_url": "https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "fasum-apps-axel",
     "storage_bucket": "fasum-apps-axel.firebasestorage.app"
   },
@@ -10,6 +11,25 @@
         "mobilesdk_app_id": "1:244500002147:android:92fabd63007b71935bcf56",
         "android_client_info": {
           "package_name": "com.example.fasum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmYno6WG9yxv6KNDjbNyJ9MPLF51TAus4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244500002147:android:8555117f371b34d25bcf56",
+        "android_client_info": {
+          "package_name": "com.example.uts_2226240117"
         }
       },
       "oauth_client": [],
