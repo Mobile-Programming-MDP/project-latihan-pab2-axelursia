@@ -4,7 +4,7 @@ import 'package:fasum/screens/home_screen.dart';
 import 'package:fasum/screens/sign_up_screen.dart';
 
 class SignInScreen extends StatefulWidget {
-  const SignInScreen({Key? key});
+  const SignInScreen({super.key, Key? Key});
 
   @override
   SignInScreenState createState() => SignInScreenState();
@@ -53,7 +53,8 @@ class SignInScreenState extends State<SignInScreen> {
                       password: _passwordController.text,
                     );
                     Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => const HomeScreen()),
+                      MaterialPageRoute(
+                          builder: (context) => const HomeScreen()),
                     );
                   } catch (error) {
                     setState(() {
@@ -73,7 +74,8 @@ class SignInScreenState extends State<SignInScreen> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const SignUpScreen()),
+                    MaterialPageRoute(
+                        builder: (context) => const SignUpScreen()),
                   );
                 },
                 child: const Text('Don\'t have an account? Sign up'),
