@@ -5,7 +5,6 @@ import 'package:fasum/screens/sign_up_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key, Key? Key});
-
   @override
   SignInScreenState createState() => SignInScreenState();
 }
@@ -13,9 +12,7 @@ class SignInScreen extends StatefulWidget {
 class SignInScreenState extends State<SignInScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-
   String _errorMessage = '';
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

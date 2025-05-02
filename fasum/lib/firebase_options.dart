@@ -46,16 +46,6 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCUgkHI71y2xKcdvIskRYnszEnO6kS-T9E',
-    appId: '1:244500002147:web:47df37db4ee2874f5bcf56',
-    messagingSenderId: '244500002147',
-    projectId: 'fasum-apps-axel',
-    authDomain: 'fasum-apps-axel.firebaseapp.com',
-    databaseURL: 'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'fasum-apps-axel.firebasestorage.app',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDmYno6WG9yxv6KNDjbNyJ9MPLF51TAus4',
     appId: '1:244500002147:android:92fabd63007b71935bcf56',
@@ -68,6 +58,16 @@ class DefaultFirebaseOptions {
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyCUgkHI71y2xKcdvIskRYnszEnO6kS-T9E',
     appId: '1:244500002147:web:1dadbff9debb11535bcf56',
+    messagingSenderId: '244500002147',
+    projectId: 'fasum-apps-axel',
+    authDomain: 'fasum-apps-axel.firebaseapp.com',
+    databaseURL: 'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'fasum-apps-axel.firebasestorage.app',
+  );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyCUgkHI71y2xKcdvIskRYnszEnO6kS-T9E',
+    appId: '1:244500002147:web:47df37db4ee2874f5bcf56',
     messagingSenderId: '244500002147',
     projectId: 'fasum-apps-axel',
     authDomain: 'fasum-apps-axel.firebaseapp.com',
