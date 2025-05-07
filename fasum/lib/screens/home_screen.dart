@@ -58,7 +58,15 @@ class HomeScreen extends StatelessWidget {
             return const Center(child: CircularProgressIndicator());
           }
 
-          final posts = snapshot.data!.docs;
+          final posts = snapshot.data!.docs.where((doc)) {
+            final data = doc.data();
+            final category = data['category'] ?? 'Lainnya';
+            return selectedCategory == null || selectedCategory == category;
+          }).toList();
+          if (post.isEmpty) {
+            return const Center(child: 'Tidak ada laporan untuk kategori ini!',);
+          }
+          
 
           //Script lengkap bagian ListView.builder
           //https://pastebin.com/kSXM5mTX
