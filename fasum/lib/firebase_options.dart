@@ -52,7 +52,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '244500002147',
     projectId: 'fasum-apps-axel',
     authDomain: 'fasum-apps-axel.firebaseapp.com',
-    databaseURL: 'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'fasum-apps-axel.firebasestorage.app',
   );
 
@@ -61,7 +62,8 @@ class DefaultFirebaseOptions {
     appId: '1:244500002147:android:92fabd63007b71935bcf56',
     messagingSenderId: '244500002147',
     projectId: 'fasum-apps-axel',
-    databaseURL: 'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'fasum-apps-axel.firebasestorage.app',
   );
 
@@ -71,8 +73,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '244500002147',
     projectId: 'fasum-apps-axel',
     authDomain: 'fasum-apps-axel.firebaseapp.com',
-    databaseURL: 'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://fasum-apps-axel-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'fasum-apps-axel.firebasestorage.app',
   );
-
 }
