@@ -10,7 +10,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:shimmer/shimmer.dart';
 
 class AddPostScreen extends StatefulWidget {
-  const AddPostScreen({super.key});
+  const AddPostScreen({Key? key}) : super(key: key);
   @override
   State<AddPostScreen> createState() => _AddPostScreenState();
 }
@@ -60,7 +60,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
               onTap: () {
                 setState(() {
                   _aiCategory =
-                      category; // Ganti AI category dengan pilihan user
+                      category; 
                 });
                 Navigator.pop(context);
               },
@@ -123,12 +123,11 @@ class _AddPostScreenState extends State<AddPostScreen> {
     if (_image == null) return;
     setState(() => _isGenerating = true);
     try {
-      //RequestOptions ro = const RequestOptions(apiVersion: 'v1');
+
       final model = GenerativeModel(
         model: 'gemini-1.5-flash',
-        apiKey: 'AIzaSyBDceRX9t0ev5n4N1CfsKVwRkkZwbofJiI',
-        //gunakan api key gemini anda
-        //requestOptions: ro,
+        apiKey: 'AIzaSyB5KF-dS7NonC0idWMylm2t80l3RTYQRGA',
+
       );
       final imageBytes = await _image!.readAsBytes();
       final content = Content.multi([

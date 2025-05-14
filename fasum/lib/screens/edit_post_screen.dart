@@ -12,12 +12,12 @@ class EditPostScreen extends StatefulWidget {
   final String? category;
 
   const EditPostScreen({
-    super.key,
+    Key? key,
     required this.postId,
     this.imageBase64,
     this.description,
     this.category,
-  });
+  }) : super(key: key);
 
   @override
   State<EditPostScreen> createState() => _EditPostScreenState();
